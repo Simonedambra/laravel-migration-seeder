@@ -1,9 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\newcontroller;
 
-use Database\Seeders\trainsSeeder;
 
+
+Route::get('/', [newcontroller::class, 'show']);
 
 
 
